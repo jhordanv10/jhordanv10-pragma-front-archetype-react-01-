@@ -7,13 +7,14 @@ This archetype uses:
 - [Axios](https://www.npmjs.com/package/axios)
 - [SASS](https://sass-lang.com/) 
 - [BEM](http://getbem.com/naming/)
+- [Atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
 - [Jest](https://jestjs.io/docs/tutorial-react)
 
 Have tons of fun. With 🤍, Pragma.
 
 ---
 
-Before we start coding, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
+Before any coding, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
 
 Once you verify the installed version, you are ready to have some fun. To verify node and npm versions open your terminal (CMD) and run:
 
