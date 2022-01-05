@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# React Archetype - 01 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello world. This is a React archetype for small Single Page Apps that get info from public APIs. This example get info from [The Rick and Morty API](https://rickandmortyapi.com/).
 
-## Available Scripts
+This archetype uses:
+- [Create React App](https://create-react-app.dev/docs/getting-started/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [SASS](https://sass-lang.com/) 
+- [BEM](http://getbem.com/naming/)
+- [Jest](https://jestjs.io/docs/tutorial-react)
 
-In the project directory, you can run:
+Have tons of fun. With 🤍, Pragma.
+
+---
+
+Before we start coding, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
+
+Once you verify the installed version, you are ready to have some fun. To verify node and npm versions open your terminal (CMD) and run:
+
+### `node --version`
+### `npm --version`
+ 
+¡Now we are ready! In the project directory, you can run:
 
 ### `npm start`
 
