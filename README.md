@@ -1,6 +1,6 @@
-# React Archetype - 01 
+# 💫 React Archetype 01: SPA 
 
-Hello world. This is a React archetype for small Single Page Apps that get info from public APIs. This example get info from [The Rick and Morty API](https://rickandmortyapi.com/).
+Aloha. This is a React archetype for small Single Page Apps that get info from public APIs. This example get info from [The Rick and Morty API](https://rickandmortyapi.com/).
 
 This archetype uses:
 - [Create React App](https://create-react-app.dev/docs/getting-started/)
@@ -12,16 +12,18 @@ This archetype uses:
 
 Have tons of fun. With 🤍, Pragma.
 
----
+Help us improving people's lives by transforming businesses. [See more](https://www.pragma.com.co/proceso-de-contratacion).
 
-Before any coding, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
+## 🌀 Before any coding
+First of all, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
 
 Once you verify the installed version, you are ready to have some fun. To verify node and npm versions open your terminal (CMD) and run:
 
 ### `node --version`
 ### `npm --version`
  
-¡Now we are ready! In the project directory, you can run:
+## Let's get some fun
+Now you are ready, in the project directory you can run:
 
 ### `npm start`
 
@@ -56,7 +58,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🪐Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 

@@ -2,4 +2,37 @@
     background: none;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 10px;
+        height: 15px;
+        border-radius: 50px 50px 0 0;
+        background: #4c5563;
+    }
+    &:before {
+        left: 9px;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+    }
+    &:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+    }
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    &--active:before, &--active:after {
+        background: #BA00AD;
+    }
 }
+
+
+  
