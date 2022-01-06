@@ -1,28 +1,31 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
+import React from 'react';
+// import axios from 'axios';
 import CardHome from './../components/molecules/CardHome/CardHome';
 import Header from '../components/molecules/Header/Header';
 import './Home.scss';
 
-const api =  axios.create({
-  baseURL: "https://rickandmortyapi.com/api/character"
-})
+const mockData = [
+  {
+    id: 1,
+    image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    name: "Name",
+    species: "Species",
+  },
+  {
+    id: 2,
+    image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    name: "Name",
+    species: "Species",
+  }
+]
 
 function Home() {  
-  const [list, setList] = useState([]);
   
-  useEffect(()=>{
-    api.get ('/').then( res =>{
-      setList(res.data.results);
-      //console.dir(res.data.results); 
-    })
-  }, [setList]);
-
   return (
     <div className="p-home">
       <Header />
       <div>
-        {list.map((item)=> (
+        {mockData.map((item)=> (
           <CardHome 
             key = {item.id}
             title = {item.name}

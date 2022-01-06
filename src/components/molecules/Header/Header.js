@@ -8,7 +8,7 @@ function Header() {
     <header className='m-header'>
         <div className='m-header-logoapp'>
           <img src={logoReact} className="--rotate" alt="logo React" />
-          <h1> Rick, React and Morty </h1>
+          <h1> Title </h1>
         </div> 
         <a href="https://www.pragma.com.co/proceso-de-contratacion" target="_blank" rel="noreferrer">
           <img src={logoPragma} className='m-header-logoright' alt="logo Pragma" />
