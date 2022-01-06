@@ -10,7 +10,7 @@ function Header() {
           <img src={logoReact} className="--rotate" alt="logo React" />
           <h1> Rick, React and Morty </h1>
         </div> 
-        <a href="https://www.pragma.com.co/proceso-de-contratacion" target="_blank">
+        <a href="https://www.pragma.com.co/proceso-de-contratacion" target="_blank" rel="noreferrer">
           <img src={logoPragma} className='m-header-logoright' alt="logo Pragma" />
         </a>
     </header>
