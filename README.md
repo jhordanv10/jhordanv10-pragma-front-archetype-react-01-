@@ -15,14 +15,14 @@ Have tons of fun. With 🤍, Pragma.
 Help us improving people's lives by transforming businesses. [See more](https://www.pragma.com.co/proceso-de-contratacion).
 
 ## 🌀 Before any coding
-First of all, the recommended viersion of Node must be installed from [here](https://nodejs.org/es/).
+First of all, the recommended version of Node must be installed from [here](https://nodejs.org/es/).
 
 Once you verify the installed version, you are ready to have some fun. To verify node and npm versions open your terminal (CMD) and run:
 
 ### `node --version`
 ### `npm --version`
  
-## Let's get some fun
+## 🚀 Let's get some fun
 Now you are ready, in the project directory you can run:
 
 ### `npm start`

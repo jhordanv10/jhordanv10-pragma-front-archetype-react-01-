@@ -8,9 +8,7 @@ function BtnLove() {
     <button className={`a-btnlove ${isBtnActive?'a-btnlove--active':''}`}
     onClick={()=>{
       setActive(!isBtnActive);
-    }}>
-      
-    </button>
+    }}></button>
   );
 }
 
