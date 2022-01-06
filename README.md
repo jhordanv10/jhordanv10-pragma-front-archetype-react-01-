@@ -25,6 +25,10 @@ Once you verify the installed version, you are ready to have some fun. To verify
 ## 🚀 Let's get some fun
 Now you are ready, in the project directory you can run:
 
+### `npm install`
+
+This command installs all modules listed as dependencies in package.json
+
 ### `npm start`
 
 Runs the app in the development mode.\

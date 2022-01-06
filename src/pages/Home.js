@@ -14,7 +14,7 @@ function Home() {
   useEffect(()=>{
     api.get ('/').then( res =>{
       setList(res.data.results);
-      console.dir(res.data.results); 
+      //console.dir(res.data.results); 
     })
   }, [setList]);
 
