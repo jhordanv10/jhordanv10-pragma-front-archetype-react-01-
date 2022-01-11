@@ -1,6 +1,6 @@
 # 💫 React Archetype 01: SPA 
 
-Aloha. This is a React archetype for small Single Page Apps that get info from public APIs. This example get info from [The Rick and Morty API](https://rickandmortyapi.com/).
+Aloha. This is a React archetype for small Single Page Apps (SPA) that get info from public APIs. This example get info from [The Rick and Morty API](https://rickandmortyapi.com/).
 
 This archetype uses:
 - [Create React App](https://create-react-app.dev/docs/getting-started/)

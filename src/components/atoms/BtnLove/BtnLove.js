@@ -3,7 +3,7 @@ import './BtnLove.scss';
 
 function BtnLove() { 
   return (
-    <button className='a-btnlove'> - </button>
+    <button onClick={()=>console.log("Button clicked!")}> Click here </button>
   );
 }
 
