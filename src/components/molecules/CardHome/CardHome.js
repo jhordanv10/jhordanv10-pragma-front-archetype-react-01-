@@ -4,7 +4,7 @@ import './CardHome.scss';
 
 function CardHome(props) {  
   return (
-    <div className='m-cardhome'>
+    <div>
       <img src={ props.img } alt={ props.title +' image'}/>
       <h3> { props.title } </h3>
       <p> { props.subtitle } </p>
